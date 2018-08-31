@@ -33,4 +33,4 @@ some extra time writing code to format the equation in a neat manner but the mat
 
 ### Code
 
-https:// github.com/agreen09/Engineering_4_Notebook/Python/quad_solver.py
+https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/quad_solver.py
