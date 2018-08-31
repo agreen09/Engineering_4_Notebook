@@ -11,7 +11,7 @@ we knew how to write 'for' loops and print strings.
 
 ### Code
 
-https://github.com/agreen09/Engineering_4_Notebook/Python/lesson00.py
+https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/lesson00.py
 
 ## Python - Calculator
 
@@ -22,7 +22,7 @@ and divides numbers, as well as finding modulos. We can easily add more operatio
 
 ### Code
 
-https://github.com/agreen09/Engineering_4_Notebook/Python/calculator.py
+https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/calculator.py
 
 ## Python - Quad Solver
 
