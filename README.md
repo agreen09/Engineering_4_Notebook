@@ -9,9 +9,7 @@ This is where all of our stuff will go!
 This assignment allowed us to become more familiar with how Python's format and syntax. It is much different than programming for the Arduino but after a coding for a bit we got used to it. By the end of the assignment, 
 we knew how to write 'for' loops and print strings.
 
-### Code
-
-https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/lesson00.py
+### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/lesson00.py)
 
 ## Python - Calculator
 
