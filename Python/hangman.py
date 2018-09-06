@@ -25,11 +25,12 @@ def drawUI():
 
 while(running):
     if(guessing == False):
+        numWrong = 0
         wordArray = []
         current = []
         hits = []
         os.system('clear')
-        word = input("Player 1, enter a word: ")
+        word = input("Player 1, enter a word: ").lower()
         for i in word:
             wordArray.append(i)
             current.append('_ ')
@@ -66,7 +67,7 @@ while(running):
                 else:
                     running = False
             if(numWrong > len(drawing) - 1):
-                if(input("Sorry, you lost! Would you like to play again? (y/n): ") == 'y'):
+                if(input("Sorry, you lost! The word was " + str(word) + "\nWould you like to play again? (y/n): ") == 'y'):
                     guessing = False
                 else:
                     running = False
