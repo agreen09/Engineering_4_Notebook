@@ -33,7 +33,7 @@ some extra time writing code to format the equation in a neat manner but the mat
 
 ### Lessons Learned
 
-Woo text!!
+This assignment was pretty simple, but the knowledge of how to split strings came in handy for the Hangman assignment.
 
 ### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/strings_and_loops.py)
 
@@ -41,7 +41,7 @@ Woo text!!
 
 ### Lessons Learned 
 
-More text will go here!
+This assignment combined a lot of the things we'd learned over the past few assignments. stuffstuffstuffstuff
 
 ### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/hangman.py)
 
@@ -49,7 +49,7 @@ More text will go here!
 
 ### Lessons Learned 
 
-More text will go here 2: Electric boogaloo
+Text will go here
 
 ### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/led_blink.py)
 
@@ -57,7 +57,7 @@ More text will go here 2: Electric boogaloo
 
 ### Lessons Learned
 
-You get the idea
+Text will go here 2: Electric boogaloo
 
 ### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Bash/led_blink.sh)
 
