@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>GPIO with Flask!</title>
+	<link rel="stylesheet" type="text/css" href="static/index.css">
+	<script>
+	function submit() {
+		document.getElementById("button2").submit();
+	
+	alert("good");
+	}
+	</script>
+</head> 
+<body> 
+<div id="text1"> 
+	{{msg1}} 
+	<form method="POST"> 
+		<button type="submit" id="button1" name="submitBtn" value="LED 1 is on">Turn on/off</button> 
+	</form>
+</div> 
+
+<div id="text2"> 
+	{{msg2}}  
+	<form method="POST" id="button2"> 
+	<span class="switch">
+	<input type="checkbox" name="submitBtn" onclick="submit()" {{checked2}} value="LED 2 is on"> 
+	<span class="slider"></span> 
+	</span>
+	</form> 
+</div> 
+</body> 
+</html>
