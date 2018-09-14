@@ -21,7 +21,8 @@ def index():
                 GPIO.output(17, GPIO.HIGH)
                 msg1 = request.form.get("submitBtn")
             if(led2 == True):
-                msg2 = "LED 2 is on"
+                msg2 = "LED 2 is
+                on"
                 checked2 = "checked"
             else:
                 msg2 = "LED 2 is off"
