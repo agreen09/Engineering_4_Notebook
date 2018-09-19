@@ -4,28 +4,35 @@
 	<title>GPIO with Flask!</title>
 	<link rel="stylesheet" type="text/css" href="static/index.css">
 	<script>
-	function submit() {
+	function submit1() {
+		document.getElementById("button1").submit();
+	}
+
+	function submit2() {
 		document.getElementById("button2").submit();
-	
-	alert("good");
 	}
 	</script>
 </head> 
 <body> 
 <div id="text1"> 
 	{{msg1}} 
-	<form method="POST"> 
-		<button type="submit" id="button1" name="submitBtn" value="LED 1 is on">Turn on/off</button> 
+	<form method="POST" id="button1">
+	<label class="switch">
+	<input type="checkbox" name="submitBtn" onclick="submit1()" {{checked1}} value="LED 1 is on">
+	<span class="slider"></span>
+	</label>
+	<input type="hidden" name="hiddenElement1" value="1">
 	</form>
 </div> 
 
 <div id="text2"> 
 	{{msg2}}  
 	<form method="POST" id="button2"> 
-	<span class="switch">
-	<input type="checkbox" name="submitBtn" onclick="submit()" {{checked2}} value="LED 2 is on"> 
+	<label class="switch">
+	<input type="checkbox" name="submitBtn" onclick="submit2()" {{checked2}} value="LED 2 is on">
 	<span class="slider"></span> 
-	</span>
+	</label>
+	<input type="hidden" name="hiddenElement2" value="2">
 	</form> 
 </div> 
 </body> 
