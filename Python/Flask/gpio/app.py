@@ -13,9 +13,7 @@ def index():
     led1 = GPIO.input(17)
     led2 = GPIO.input(18)
     if request.method == "POST":
-        print(request.form)
         if('hiddenElement1' in request.form):
-            print("LED 1")
             if(led1 == True):
                 GPIO.output(17, GPIO.LOW)
                 msg1 = "LED 1 is off"
