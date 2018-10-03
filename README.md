@@ -41,7 +41,7 @@ This assignment was pretty simple, but the knowledge of how to split strings cam
 
 ### Lessons Learned 
 
-This assignment combined a lot of the things we'd learned over the past few assignments. stuffstuffstuffstuff
+This assignment combined a lot of the things we'd learned over the past few assignments.
 
 ### [Code](https://github.com/agreen09/Engineering_4_Notebook/blob/master/Python/hangman.py)
 
