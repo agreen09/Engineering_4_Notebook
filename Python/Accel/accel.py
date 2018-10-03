@@ -34,12 +34,16 @@ while True:
     accel, mag = lsm303.read()
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
+
+    accel_x /= 100
+    accel_y /= 100
+    accel_z /= 100
     
     draw = ImageDraw.Draw(image)
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     draw.text((0, top), 'ACCEL:',  font=font, fill=255)
-    draw.text((5, top + 15), 'x:' + str(accel_x),  font=font, fill=255)
-    draw.text((5, top + 30), 'y:' + str(accel_y),  font=font, fill=255)
-    draw.text((5, top + 45), 'z:' + str(accel_z),  font=font, fill=255)
+    draw.text((5, top + 15), 'x: ' + str(accel_x),  font=font, fill=255)
+    draw.text((5, top + 30), 'y: ' + str(accel_y),  font=font, fill=255)
+    draw.text((5, top + 45), 'z: ' + str(accel_z),  font=font, fill=255)
     disp.image(image)
     disp.display()
