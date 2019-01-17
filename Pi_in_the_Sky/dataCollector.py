@@ -6,6 +6,7 @@ import os
 import sys
 import time
 import datetime
+import Adafruit_LSM303
 import Adafruit_BMP.BMP085 as BMP085
 import RPi.GPIO as GPIO
 import gspread
@@ -16,6 +17,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
 sensor = BMP085.BMP085()
+lsm303 = Adafruit_LSM303.LSM303()
 
 ipaddr = "---.---.---.---"
 online = False
@@ -106,6 +108,11 @@ def main():
     pressure = sensor.read_pressure()
     altitude = sensor.read_altitude()
 
+    accel, mag = lsm303.read()
+    accel_x, accel_y, accel_z = accel
+    mag_x, mag_y, mag_z = mag
+    
+
     tempStr = str(temp)
     pressureStr = str(pressure)
     altitudeStr = str(altitude)
@@ -117,14 +124,16 @@ def main():
     #try:
     #json.dumps(my_dictionary, indent=4, sort_keys=True, default=str)
 
-    fileWrite(getTime() + ", " + tempStr + ", " + pressureStr + ", " + altitudeStr + "\n")
+    fileWrite(getTime() + ", " + tempStr + ", " + pressureStr + ", " + altitudeStr + ",  [" + str(accel_x) + ", " + str(accel_y) + ", " + str(accel_z) + "], [" + str(mag_x) + ", " + str(mag_y) + ", " + str(mag_z) + "]\n")
     if(isOnline()):
-        timeCheck = elapsed()
-        while(pointer < len(getLine(-1)) and elapsed() - timeCheck < freq - 0.5 and isOnline()): 
-            data = getLine(pointer).split(", ")
-            worksheet.append_row((str(data[0]), str(data[1]), str(data[2]), str(data[3])))
-            print ('Wrote a row to ' + NAME + '\n')
+        #timeCheck = elapsed()
+        #while(pointer < len(getLine(-1)) and elapsed() - timeCheck < freq - 0.5 and isOnline()): 
+            #data = getLine(pointer).split(", ")
+            #worksheet.append_row((str(data[0]), str(data[1]), str(data[2]), str(data[3])))
+            worksheet.append_row((getTime(), tempStr, pressureStr, altitudeStr, str(accel_x), str(accel_y), str(accel_z), str(mag_x), str(mag_y), str(mag_z)))
+            #print ('Wrote a row to ' + NAME + '\n')
             #print(str(data[1]), ", ", str(data[2]), ", ", str(data[3]))
+
     #except:
         # Error appending data, most likely because credentials are stale.
         # Null out the worksheet so a login is performed at the top of the loop.
