@@ -1,7 +1,7 @@
 #Pi in the Sky
 
 This is the project page for Barrett and Amara's Pi in the Sky project.
-The media and files for this project are located [here](https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing here).
+The media and files for this project are located [here](https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing).
 
 ##Planning
 
@@ -46,6 +46,7 @@ December 7, 2018 | By this point, our project will be complete and all documenta
 ##Work Log
 
 Milestone? | Date | Summary
+--- | --- | --- 
 Initial Pi holder design completed | Mid-October? | Finished the initial design of the part which attaches all of our chips to the rocket
 Lightened Pi holder completed | 11/15/18 | Finished lightening the Pi holder, separating it into two parts, and started printing
 Chip models made | 11/19/18 | Finished and uploaded Solidworks versions of Powerboost and accelerometer, which the library didn't have models of
