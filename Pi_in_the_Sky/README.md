@@ -1,4 +1,5 @@
-#Pi in the Sky
+Alt-Pi in the Sky
+======
 
 This is the project page for Barrett and Amara's Pi in the Sky project.
 The media and files for this project are located [here](https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing).
