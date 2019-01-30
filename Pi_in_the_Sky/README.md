@@ -1,4 +1,4 @@
-This is the project page for the Pi in the Sky project by [[User:Bcrusse13|Barrett]] and [[User:Agreen09|Amara]].
+This is the project page for Barrett and Amara's Pi in the Sky project.
 
 The media and files for this project are located <span class="plainlinks">[https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing here]</span>.
 
