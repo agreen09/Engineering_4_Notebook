@@ -37,7 +37,8 @@ errorFile = "log.txt"
 #f = open(fileName, "w")
 #f.close()
 
-EMAIL = 'bcrusse13@charlottesvilleschools.org'
+EMAIL = ['bcrusse13@charlottesvilleschools.org',
+         'agreen09@charlottesvilleschools.org']
 NAME = str("[PI_DATA] " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 scope = ['https://spreadsheets.google.com/feeds',
@@ -49,7 +50,8 @@ def login_open_sheet(email, spreadsheet):
     credentials = ServiceAccountCredentials.from_json_keyfile_name('pi-in-the-sky-13-ca776cc8e6db.json', scope)
     gc = gspread.authorize(credentials)
     sh = gc.create(spreadsheet)
-    sh.share(EMAIL, perm_type='user', role='writer', notify=False)
+    for i in range(0, len(EMAIL)):
+        sh.share(EMAIL[i], perm_type='user', role='writer', notify=False)
     
     print ('Logged in successfully. New worksheet created\n')
     return sh.sheet1
@@ -103,6 +105,7 @@ def main():
     if worksheet is None:
         print ('Logging in...')
         worksheet = login_open_sheet(EMAIL, NAME)
+        worksheet.append_row(('Time', 'Temp', 'Pressure', 'Altitude', 'Accel X', 'Accel Y', 'Accel Z', 'Mag X', 'Mag Y', 'Mag Z'))
 
     temp = sensor.read_temperature()
     pressure = sensor.read_pressure()

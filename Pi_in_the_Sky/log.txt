@@ -31,3 +31,25 @@ append_row() takes from 2 to 3 positional arguments but 11 were given
 2019-01-17 15:00:57
 [Errno 121] Remote I/O error
 
+2019-01-17 15:23:03
+Unable to find the server at oauth2.googleapis.com
+
+2019-01-30 14:33:10
+'NoneType' object has no attribute 'append_row'
+
+2019-01-30 14:40:14
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "internalError",
+    "message": "Internal Error. User message: \"An internal error has occurred which prevented the sharing of these item(s): [PI_DATA] 2019-01-30 14:40:14\""
+   }
+  ],
+  "code": 500,
+  "message": "Internal Error. User message: \"An internal error has occurred which prevented the sharing of these item(s): [PI_DATA] 2019-01-30 14:40:14\""
+ }
+}
+
+
