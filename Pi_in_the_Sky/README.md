@@ -225,3 +225,6 @@ Battery sleeve started | 11/26/18 | Made a small part to test dimensions of a sl
 Battery sleeve printed | 11/29/18 | Printed the finalized prototype battery sleeve and incorporated the design into the Pi holder
 Code written | 12/13/18 | Finished code
 Rocket assembled | 12/13/18 | Fully assembled model rocket 
+Wired everything | January | Added all sensors and chips to the rocket, fixed the ones that didn't work
+Pi Holder 2 finished | January | Printed bigger holder and got it wired
+First launch | Soon? | First launch of the rocket
