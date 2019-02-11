@@ -3,9 +3,6 @@ Pi in the Sky
 This is the project page for Barrett and Amara's Pi in the Sky project.
 The media and files for this project are located [here](https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing).
 
-Planning
-------
-
 Project Goal
 ------
 The goal for this project is to get a Raspberry Pi into the air by any means necessary, collecting data along the way.
@@ -47,6 +44,27 @@ November 2, 2018 | All components that will be 3d printed will be fully designed
 November 16, 2018 | We anticipate that revisions to our design will be necessary, so we will have the final draft of all components designed in SolidWorks. |
 November 30, 2018 | We are giving ourselves two weeks of testing to ensure that our design is complete. It is too early to anticipate how well our design will work, but we hope to complete our project by this date. |
 December 7, 2018 | By this point, our project will be complete and all documentation will be written. If our project is not complete for any reason, we will begin wrapping it up. |
+
+Work Log
+------
+Milestone? | Date | Summary
+--- | --- | --- 
+Initial Pi holder design completed | Mid-October? | Finished the initial design of the part which attaches all of our chips to the rocket
+Lightened Pi holder completed | 11/15/18 | Finished lightening the Pi holder, separating it into two parts, and started printing
+Chip models made | 11/19/18 | Finished and uploaded Solidworks versions of Powerboost and accelerometer, which the library didn't have models of
+Battery sleeve started | 11/26/18 | Made a small part to test dimensions of a sleeve to hold the battery. The original part didn't have anything to hold the batter in place, and making a separate part to test meant we could get it right without wasting material of a full pi holder
+Battery sleeve printed | 11/29/18 | Printed the finalized prototype battery sleeve and incorporated the design into the Pi holder
+Code written | 12/13/18 | Finished code
+Rocket assembled | 12/13/18 | Fully assembled model rocket 
+Wired everything | January | Added all sensors and chips to the rocket, fixed the ones that didn't work
+Pi Holder 2 finished | January | Printed bigger holder and got it wired
+First launch | 2/7/19 | First launch of the rocket
+
+First Launch
+------
+The first launch was more of a test than a proper launch. Since the C6 engine was rated for a maximum weight of 113 grams and our rocket weighed 164, we weren't even sure it would get off the ground. It did successfully lift off, but not quite according to plan. The rocket tipped over sideways very soon after liftoff, flew in nearly a circle before leveling out vertical again, then turned around again and flew straight into the ground before the parachutes fired.
+
+Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
 
 Code
 ------
@@ -214,17 +232,3 @@ while True:
         exit()
 ````
 
-Work Log
-------
-Milestone? | Date | Summary
---- | --- | --- 
-Initial Pi holder design completed | Mid-October? | Finished the initial design of the part which attaches all of our chips to the rocket
-Lightened Pi holder completed | 11/15/18 | Finished lightening the Pi holder, separating it into two parts, and started printing
-Chip models made | 11/19/18 | Finished and uploaded Solidworks versions of Powerboost and accelerometer, which the library didn't have models of
-Battery sleeve started | 11/26/18 | Made a small part to test dimensions of a sleeve to hold the battery. The original part didn't have anything to hold the batter in place, and making a separate part to test meant we could get it right without wasting material of a full pi holder
-Battery sleeve printed | 11/29/18 | Printed the finalized prototype battery sleeve and incorporated the design into the Pi holder
-Code written | 12/13/18 | Finished code
-Rocket assembled | 12/13/18 | Fully assembled model rocket 
-Wired everything | January | Added all sensors and chips to the rocket, fixed the ones that didn't work
-Pi Holder 2 finished | January | Printed bigger holder and got it wired
-First launch | 2/7/19 | First launch of the rocket
