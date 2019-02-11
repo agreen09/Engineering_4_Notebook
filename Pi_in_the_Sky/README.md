@@ -227,4 +227,4 @@ Code written | 12/13/18 | Finished code
 Rocket assembled | 12/13/18 | Fully assembled model rocket 
 Wired everything | January | Added all sensors and chips to the rocket, fixed the ones that didn't work
 Pi Holder 2 finished | January | Printed bigger holder and got it wired
-First launch | 2/7 | First launch of the rocket
+First launch | 2/7/19 | First launch of the rocket
