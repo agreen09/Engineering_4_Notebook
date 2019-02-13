@@ -1,16 +1,13 @@
-Pi in the Sky
-======
+# Pi in the Sky
 This is the project page for Barrett and Amara's Pi in the Sky project.
 The media and files for this project are located [here](https://drive.google.com/drive/folders/1esaPi3y6qm1p5ZarPjROJN2QxnBNeMxv?usp=sharing).
 
-Project Goal
-------
+## Project Goal
 The goal for this project is to get a Raspberry Pi into the air by any means necessary, collecting data along the way.
 
 We will be using a model rocket to launch our Raspberry Pi ~1000ft into the air.
 
-Materials
-------
+## Materials
 To create our project, we will be using:
 *A 3d printer + plastic
 *A laser cutter + 3.75mm acrylic
@@ -21,20 +18,17 @@ To create our project, we will be using:
 *An Adafruit LSM303DLHC accelerometer
 *A soldering iron
 
-Initial Design
-------
+## Initial Design
 Luckily enough, the Sigma Lab already has some model rocket kits so we will not have to purchase any. 
 
 We will be designing an apparatus to attach all components to the rocket. It will fit around its body snugly so that it cannot slide off. All components, including the Raspberry Pi, battery chip, lithium battery, and accelerometer should fit onto this apparatus.
 
-Potential Roadblocks
-------
+## Potential Roadblocks
 We may run into a few problems during the course of our project that we will need to solve. These include:
 *Model rockets are very precise and the addition of extra components may prevent it from taking off properly
 *Since we can't drill any holes into the rocket itself, we will have to design an apparatus to attach the Pi to the rocket
 
-Planned Schedule
-------
+## Planned Schedule
 We will try to complete each phase of our project by the following deadlines:
 
 | Goal | Part of project | Actual completion
@@ -45,8 +39,7 @@ November 16, 2018 | We anticipate that revisions to our design will be necessary
 November 30, 2018 | We are giving ourselves two weeks of testing to ensure that our design is complete. It is too early to anticipate how well our design will work, but we hope to complete our project by this date. |
 December 7, 2018 | By this point, our project will be complete and all documentation will be written. If our project is not complete for any reason, we will begin wrapping it up. |
 
-Work Log
-------
+## Work Log
 Milestone? | Date | Summary
 --- | --- | --- 
 Initial Pi holder design completed | Mid-October? | Finished the initial design of the part which attaches all of our chips to the rocket
@@ -60,15 +53,14 @@ Wired everything | January | Added all sensors and chips to the rocket, fixed th
 Pi Holder 2 finished | January | Printed bigger holder and got it wired
 First launch | 2/7/19 | First launch of the rocket
 
-First Launch
-------
+## First Launch
 The first launch was more of a test than a proper launch. Since the C6 engine was rated for a maximum weight of 113 grams and our rocket weighed 164, we weren't even sure it would get off the ground. It did successfully lift off, but not quite according to plan. The rocket pitched forward soon after it cleared the launch rod, flew in a half circle before righting itself, then flew up several more meters before falling back over and firing straight into the ground. This was before the parachute could deploy or the engine could even cut off, so it continued firing sideways for another second or so. 
 
 The Pi and all sensors stayed securely in place, including the wiring. The rocket itself was mildly damaged: a fin snapped off on impact with the ground and the elastic cord attaching the cone came out.  
 
 Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
 
-###Data
+### Data
 
 Temperature, pressure, and magnetometer data not included. Data starts two seconds before liftoff and ends two seconds after hitting the ground
 
@@ -84,11 +76,10 @@ Time | Altitude | Acccel X | Acccel Y | Acccel Z
 16:46:15 |	100.5561496 |	-347 |	64 |	991
 16:46:16 |	100.9764731 |	-350 |	59 |	992
 
-###Takeaways
+### Takeaways
 We decided the pitching over was likely due to it having an off-center center of mass. For the next launch, we'll switch back to the lighter Pi holder, use Solidworks to make sure the CoM is centered, and switch to an engine with a shorter burn time. If there is a same-sized engine  with a higher thrust, we'll use that. In addition, we'll shorten the time between measurement from 1 second to as quickly as possible in order to get more accurate data.  
 
-Code
-------
+## Code
 ````python
 from subprocess import call
 from time import sleep
