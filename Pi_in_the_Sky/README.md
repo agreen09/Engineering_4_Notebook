@@ -67,7 +67,9 @@ The Pi and all sensors stayed securely in place, including the wiring. The rocke
 Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
 
 ###Data
+
 Temperature, pressure, and magnetometer data not included. Data starts two seconds before liftoff and ends two seconds after hitting the ground
+
 Time | Altitude | Acccel X | Acccel Y | Acccel Z
 16:46:08 |	101.4808837 |	106 |	1048 |	67
 16:46:09 |	101.4808837 |	109 |	1047 |	65
