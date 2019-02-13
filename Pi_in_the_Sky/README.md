@@ -76,6 +76,10 @@ Time | Altitude | Acccel X | Acccel Y | Acccel Z
 16:46:15 |	100.5561496 |	-347 |	64 |	991
 16:46:16 |	100.9764731 |	-350 |	59 |	992
 
+Max height: 8.629 m
+
+Max Y acceleration: 9.351 m/s^2
+
 ### Takeaways
 We decided the pitching over was likely due to it having an off-center center of mass. For the next launch, we'll switch back to the lighter Pi holder, use Solidworks to make sure the CoM is centered, and switch to an engine with a shorter burn time. If there is a same-sized engine  with a higher thrust, we'll use that. In addition, we'll shorten the time between measurement from 1 second to as quickly as possible in order to get more accurate data.  
 
