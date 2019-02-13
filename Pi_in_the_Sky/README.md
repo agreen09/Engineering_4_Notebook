@@ -71,6 +71,7 @@ Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
 Temperature, pressure, and magnetometer data not included. Data starts two seconds before liftoff and ends two seconds after hitting the ground
 
 Time | Altitude | Acccel X | Acccel Y | Acccel Z
+--- | --- | --- | --- | --- 
 16:46:08 |	101.4808837 |	106 |	1048 |	67
 16:46:09 |	101.4808837 |	109 |	1047 |	65
 **16:46:10** |	101.1782373 |	491 |	2035 |	-469
