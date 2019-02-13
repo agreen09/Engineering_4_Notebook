@@ -62,9 +62,25 @@ First launch | 2/7/19 | First launch of the rocket
 
 First Launch
 ------
-The first launch was more of a test than a proper launch. Since the C6 engine was rated for a maximum weight of 113 grams and our rocket weighed 164, we weren't even sure it would get off the ground. It did successfully lift off, but not quite according to plan. The rocket tipped over sideways very soon after liftoff, flew in nearly a circle before leveling out vertical again, then turned around again and flew straight into the ground before the parachutes fired.
-
+The first launch was more of a test than a proper launch. Since the C6 engine was rated for a maximum weight of 113 grams and our rocket weighed 164, we weren't even sure it would get off the ground. It did successfully lift off, but not quite according to plan. The rocket pitched forward soon after it cleared the launch rod, flew in a half circle before righting itself, then flew up several more meters before falling back over and firing straight into the ground. This was before the parachute could deploy or the engine could even cut off, so it continued firing sideways for another second or so. 
+The Pi and all sensors stayed securely in place, including the wiring. The rocket itself was mildly damaged: a fin snapped off on impact with the ground and the elastic cord attaching the cone came out.  
 Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
+
+###Data
+Temperature, pressure, and magnetometer data not included. Data starts two seconds before liftoff and ends two seconds after hitting the ground
+Time | Altitude | Acccel X | Acccel Y | Acccel Z
+16:46:08 |	101.4808837 |	106 |	1048 |	67
+16:46:09 |	101.4808837 |	109 |	1047 |	65
+**16:46:10** |	101.1782373 |	491 |	2035 |	-469
+**16:46:11** |	108.0404508 |	114 |	1200 |	-384
+**16:46:12** |	109.8071957 |	20 |	-23 |	-521
+**16:46:13** |	103.4987712 |	-39 |	-18 |	-817
+**16:46:14** |	101.4808837 |	-202 |	26 |	955
+16:46:15 |	100.5561496 |	-347 |	64 |	991
+16:46:16 |	100.9764731 |	-350 |	59 |	992
+
+###Takeaways
+We decided the pitching over was likely due to it having an off-center center of mass. For the next launch, we'll switch back to the lighter Pi holder, use Solidworks to make sure the CoM is centered, and switch to an engine with a shorter burn time. If there is a same-sized engine  with a higher thrust, we'll use that. In addition, we'll shorten the time between measurement from 1 second to as quickly as possible in order to get more accurate data.  
 
 Code
 ------
