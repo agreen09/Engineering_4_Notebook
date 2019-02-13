@@ -63,7 +63,9 @@ First launch | 2/7/19 | First launch of the rocket
 First Launch
 ------
 The first launch was more of a test than a proper launch. Since the C6 engine was rated for a maximum weight of 113 grams and our rocket weighed 164, we weren't even sure it would get off the ground. It did successfully lift off, but not quite according to plan. The rocket pitched forward soon after it cleared the launch rod, flew in a half circle before righting itself, then flew up several more meters before falling back over and firing straight into the ground. This was before the parachute could deploy or the engine could even cut off, so it continued firing sideways for another second or so. 
+
 The Pi and all sensors stayed securely in place, including the wiring. The rocket itself was mildly damaged: a fin snapped off on impact with the ground and the elastic cord attaching the cone came out.  
+
 Video: https://www.youtube.com/watch?v=kVO9uL9ZAFs
 
 ###Data
